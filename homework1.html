@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>자기소개</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        li{
-        margin : 10px;
-        }
         b {
         color : blue;
         }
@@ -19,6 +17,15 @@
         .container {
         display: grid ;
         grid-template-columns : 2fr 2fr;
+        }
+        @media(max-width:800px){
+            .container{
+            display: block;
+            }
+            div{
+                border-left: none !important;
+                padding-left: 0px !important;
+            }
         }
     </style>
 </head>

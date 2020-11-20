@@ -1,0 +1,16 @@
+li{
+    margin : 10px;
+    transition: background-color 0.4s, margin-left 1s;
+ }
+li:hover{
+    background-color : blue;
+    margin-left: 15px;
+}
+@media(max-width:1000px){
+    .container{
+        display: block;
+    }
+    div{
+        border-left:none;
+    }
+}
